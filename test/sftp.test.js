@@ -213,7 +213,14 @@ describe('SFTP', function() {
     });
 
 
-    it('write file', function(done) {
+    it('remove file before write test (incase exists)', function(done) {
+      scope.sftp.unlink('a.js', function(err) {
+        setTimeout(done, 1000);
+      });
+    });
+
+
+    it('write file with wait until exists', function(done) {
       var filePath = __dirname + '/assets/a.js',
         file = tnv.fs.readFileSync(filePath, "utf8");
 
