@@ -1,18 +1,21 @@
 {
-  "name": "sftp-fork",
+  "name": "sftp-wrapper",
   "version": "1.0.5",
   "description": "SFTP library for node.js",
-  "author": "kirrg001",
+  "author": "samzilverberg",
   "contributors": [
     {
       "name": "Sam Zilverberg",
       "email": "samzilverberg@gmail.com"
+    },
+    {
+      "name": "kirrg001",
     }
   ],
-  "homepage": "http://github.com/kirrg001/node-sftp",
+  "homepage": "https://github.com/Avuba/node-sftp",
   "repository": {
     "type": "git",
-    "url": "http://github.com/kirrg001/node-sftp.git"
+    "url": "https://github.com/Avuba/node-sftp.git"
   },
   "keywords": [
     "sftp",
