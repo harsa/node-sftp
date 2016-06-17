@@ -1,7 +1,7 @@
 {
   "name": "sftp-wrapper",
   "version": "1.0.5",
-  "description": "SFTP library for node.js",
+  "description": "SFTP library for node.js that wraps the sftp shell command",
   "author": "samzilverberg",
   "contributors": [
     {
