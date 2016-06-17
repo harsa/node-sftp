@@ -1,0 +1,16 @@
+{
+  "name": "sftp-fork",
+  "version": "1.0.4",
+  "dependencies": {
+    "pty.js": {
+      "version": "0.3.0",
+      "from": "pty.js@latest",
+      "dependencies": {
+        "nan": {
+          "version": "2.3.5",
+          "from": "nan@latest"
+        }
+      }
+    }
+  }
+}
