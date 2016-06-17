@@ -9,6 +9,10 @@
         "nan": {
           "version": "2.3.5",
           "from": "nan@latest"
+        },
+        "extend": {
+          "version": "latest",
+          "from": "extend@latest"
         }
       }
     }
