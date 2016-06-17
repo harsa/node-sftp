@@ -1,6 +1,6 @@
 {
   "name": "sftp-fork",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "SFTP library for node.js",
   "author": "kirrg001",
   "contributors": [
@@ -18,17 +18,14 @@
     "sftp",
     "node"
   ],
-  "engine": {
-    "node": ">=0.4.x"
-  },
   "main": "./lib/sftp.js",
   "dependencies": {
-    "pty.js": "~0.2.6"
+    "pty.js": "0.3.0"
   },
   "devDependencies": {
-    "chai": "^3.2.0",
-    "mocha-tnv": "^1.0.14",
-    "sinon": "^1.17.1"
+    "chai": "^3.5.0",
+    "mocha": "^2.5.3",
+    "sinon": "^1.17.4"
   },
   "licenses": [
     {

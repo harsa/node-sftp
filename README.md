@@ -8,7 +8,7 @@ I already improved the lib and fixed bugs.
 
 - Tests are run against a real sftp server, which you will have to provide.
 - The server should only allow connecting with a private key
-
-```
-make tests host=host username=username key=private-key-path
-```
+- provided sftp data is passed into test via env variables (to be improved later):
+    ```
+    NODE_SFTP_USERNAME=user NODE_SFTP_HOST=yourSftpHost NODE_SFTP_PORT=2222 NODE_SFTP_PRIVATEKEY=pathToPrivateKey mocha
+    ```
