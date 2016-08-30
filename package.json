@@ -12,10 +12,10 @@
       "name": "kirrg001"
     }
   ],
-  "homepage": "https://github.com/Avuba/node-sftp",
+  "homepage": "https://github.com/harsa/node-sftp",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Avuba/node-sftp.git"
+    "url": "https://github.com/harsa/node-sftp.git"
   },
   "keywords": [
     "sftp",
